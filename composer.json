@@ -22,6 +22,8 @@
         "drupal/ctools": "^3.0",
         "drupal/pathauto": "^1.1",
         "drupal/simple_block": "^1.0@beta",
+        "drupal/simplenews": "^1.0",
+        "drupal/taxonomy_menu": "^3.3",
         "drupal/token": "^1.1",
         "drupal/we_megamenu": "^1.0",
         "drush-ops/behat-drush-endpoint": "^0.0.5",
