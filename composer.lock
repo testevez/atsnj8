@@ -2668,17 +2668,17 @@
         },
         {
             "name": "drupal/we_megamenu",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/we_megamenu",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/we_megamenu-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "8e9296c101d3d5001e0da51f18d042166cd44b44"
+                "url": "https://ftp.drupal.org/files/projects/we_megamenu-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "8a13c3957d764b6432bc6f954bd6ff388803963c"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2689,11 +2689,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1522379885",
+                    "version": "8.x-1.1",
+                    "datestamp": "1523430484",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
