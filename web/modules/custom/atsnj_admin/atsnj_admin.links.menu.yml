@@ -1,6 +1,12 @@
-hello.admin:
-  title: 'Hello module settings'
-  description: 'example of how to make an admin settings page link'
-  parent: system.admin_config_development
-  route_name: hello.content
+atsnj_admin.admin_atsnj:
+  route_name: atsnj_admin.admin_atsnj
+  parent: system.admin
+  title: 'ATSNJ'
+  description: 'Administer ATSNJ Custom modules settings'
   weight: 100
+atsnj_admin.settings:
+  route_name: atsnj_admin.settings
+  parent: atsnj_admin.admin_atsnj
+  title: 'ATSNJ Settings'
+  description: 'Administer ATSNJ Admin module'
+  weight: -5
