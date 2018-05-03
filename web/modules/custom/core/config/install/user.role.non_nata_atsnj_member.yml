@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: non_nata_atsnj_member
+label: 'Non-NATA ATSNJ Member'
+weight: 7
+is_admin: null
