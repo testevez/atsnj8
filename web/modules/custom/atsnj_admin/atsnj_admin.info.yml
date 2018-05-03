@@ -1,6 +1,28 @@
-name: Hello World Module
-description: Creates a page showing "Hello World".
-package: Custom
+name: ATSNJ Admin
+description: This module is the base module for the ATSNJ Drupal 8 site.
+package: ATSNJ
+
 type: module
-version: 1.0
 core: 8.x
+
+dependencies:
+  - datetime:datetime
+  - link:link
+  - drupal:views
+  - address:address
+  - pathauto:pathauto
+  - sendgrid_integration:sendgrid_integration
+  - taxonomy_menu:taxonomy_menu
+  - token:token
+  - token_filter:token_filter
+  - we_megamenu:we_megamenu
+  - webform:webform
+
+test_dependencies:
+ - drupal:image
+
+configure: atsnj_admin.settings
+
+php: 5.6
+
+hidden: false

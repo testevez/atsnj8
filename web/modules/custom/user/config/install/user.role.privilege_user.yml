@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: privilege_user
+label: 'Privilege User'
+weight: 6
+is_admin: null

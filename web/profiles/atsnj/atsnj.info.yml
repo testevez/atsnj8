@@ -1,0 +1,50 @@
+name: 'Initial Site Config'
+description: 'The starting config for the ATSNJ Site'
+type: profile
+core: 8.x
+dependencies:
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - file
+  - help
+  - history
+  - image
+  - initial_site_config_core
+  - initial_site_config_site
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - toolbar
+  - tour
+  - user
+  - views
+  - views_ui
+themes:
+  - bartik
+  - seven
+package: 'Initial Site Config'
+distribution:
+  name: 'Initial Site Config'
